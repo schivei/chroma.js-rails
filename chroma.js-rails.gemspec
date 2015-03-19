@@ -17,10 +17,9 @@ Gem::Specification.new do |spec|
   spec.required_rubygems_version = ">= 1.3.6"
   spec.rubyforge_project         = "chroma-js"
 
-  spec.files        = `git ls-files`.split("\n")
-
   spec.add_dependency "railties", ">= 3.1"
   spec.add_development_dependency "rails", ">= 3.1"
 
-  spec.require_paths = ["lib", "vendor"]
+  spec.files        = `git ls-files`.split("\n")
+  spec.require_path = "lib"
 end
