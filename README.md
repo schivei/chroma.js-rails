@@ -20,10 +20,14 @@ Or install it yourself as:
 ## Usage
 
 ### CoffeScript
-    #= require chroma-js
+    #= require chroma
 
 ### JavaScript
-    //= require chroma-js
+    //= require chroma
+
+## Info
+
+To contribute with Chroma.JS and or to get any informations about it, see the [Chroma.JS Repo](https://github.com/gka/chroma.js).
 
 ## Contributing
 

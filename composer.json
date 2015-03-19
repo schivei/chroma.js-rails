@@ -1,6 +1,6 @@
 {
     "name": "schivei/chroma-js",
-    "version": "0.1.2",
+    "version": "1.0.0",
     "description": "This Gem is made to support the use of Chroma.js library with Rails Assets",
     "keywords": [
       "chroma-js",

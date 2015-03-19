@@ -13,15 +13,15 @@ Gem::Specification.new do |s|
   s.homepage      = "https://github.com/schivei/chroma.js-rails"
   s.license       = "MIT"
 
-  s.add_runtime_dependency 'autoprefixer-rails', '>= 5.0.0.1'
-  s.add_development_dependency 'actionpack', '>= 4.1.5'
-  s.add_development_dependency 'activesupport', '>= 4.1.5'
-  s.add_development_dependency 'json', '>= 1.8.1'
-  s.add_development_dependency 'sprockets-rails', '>= 2.1.3'
-  s.add_development_dependency 'slim-rails'
-  s.add_development_dependency 'uglifier'
+  s.add_runtime_dependency 'autoprefixer-rails', '~> 5.0'
+  s.add_development_dependency 'actionpack', '~> 4.1'
+  s.add_development_dependency 'activesupport', '~> 4.1'
+  s.add_development_dependency 'json', '~> 1.8'
+  s.add_development_dependency 'sprockets-rails', '~> 2.1'
+  s.add_development_dependency 'slim-rails', '~> 0'
+  s.add_development_dependency 'uglifier', '~> 0'
   # Converter
-  s.add_development_dependency 'term-ansicolor'
+  s.add_development_dependency 'term-ansicolor', '~> 0'
 
   s.rubyforge_project         = "chroma-js"
 
