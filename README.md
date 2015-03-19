@@ -1,4 +1,4 @@
-# Chroma.js::Rails
+# Chroma.js::Rails [![Gem Version](https://badge.fury.io/rb/chroma-js.svg)](http://badge.fury.io/rb/chroma-js)
 
 A Gem for Chroma.js library<br>
 This Gem is made to support the use of Chroma.js library with Rails Assets
