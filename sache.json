@@ -1,0 +1,11 @@
+{
+    "name": "chrome-js",
+    "description": "This Gem is made to support the use of Chroma.js library with Rails Assets",
+    "tags": [
+      "chroma-js",
+      "chroma.js",
+      "chroma",
+      "color",
+      "javascript"
+    ]
+}

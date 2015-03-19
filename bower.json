@@ -1,0 +1,28 @@
+{
+  "name": "chroma-js",
+  "version": "0.1.2",
+  "homepage": "https://github.com/schivei/chroma.js-rails",
+  "authors": [
+    "Elton Schivei Costa"
+  ],
+  "description": "This Gem is made to support the use of Chroma.js library with Rails Assets",
+  "main": [
+    "assets/javascripts/chroma.js"
+  ],
+  "keywords": [
+    "chroma-js",
+    "chroma.js",
+    "chroma",
+    "color",
+    "javascript"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "lib",
+    "templates",
+    "*.gemspec",
+    "Rakefile",
+    "Gemfile"
+  ]
+}

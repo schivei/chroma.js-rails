@@ -1,25 +1,29 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'chroma.js/rails/version'
+require 'chroma-js/version'
 
-Gem::Specification.new do |spec|
-  spec.name          = "chroma-js"
-  spec.version       = ChromaJS::Rails::VERSION
-  spec.platform      = Gem::Platform::RUBY
-  spec.authors       = ["Elton Schivei Costa"]
-  spec.email         = ["costa@elton.schivei.nom.br"]
-  spec.summary       = "A Gem for Chroma.js library"
-  spec.description   = "This Gem is made to support the use of Chroma.js library with Rails Assets"
-  spec.homepage      = "https://github.com/schivei/chroma.js-rails"
-  spec.license       = "MIT"
+Gem::Specification.new do |s|
+  s.name          = "chroma-js"
+  s.version       = Chroma::VERSION
+  s.authors       = ["Elton Schivei Costa"]
+  s.email         = ["costa@elton.schivei.nom.br"]
+  s.summary       = "A Gem for Chroma.js library"
+  s.description   = "This Gem is made to support the use of Chroma.js library with Rails Assets"
+  s.homepage      = "https://github.com/schivei/chroma.js-rails"
+  s.license       = "MIT"
 
-  spec.required_rubygems_version = ">= 1.3.6"
-  spec.rubyforge_project         = "chroma-js"
+  s.add_runtime_dependency 'autoprefixer-rails', '>= 5.0.0.1'
+  s.add_development_dependency 'actionpack', '>= 4.1.5'
+  s.add_development_dependency 'activesupport', '>= 4.1.5'
+  s.add_development_dependency 'json', '>= 1.8.1'
+  s.add_development_dependency 'sprockets-rails', '>= 2.1.3'
+  s.add_development_dependency 'slim-rails'
+  s.add_development_dependency 'uglifier'
+  # Converter
+  s.add_development_dependency 'term-ansicolor'
 
-  spec.add_dependency "railties", ">= 3.1"
-  spec.add_development_dependency "rails", ">= 3.1"
+  s.rubyforge_project         = "chroma-js"
 
-  spec.files        = `git ls-files`.split("\n")
-  spec.require_path = "lib"
+  s.files      = `git ls-files`.split("\n")
 end

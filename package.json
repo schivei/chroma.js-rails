@@ -1,0 +1,24 @@
+{
+  "name": "chroma-js",
+  "version": "0.1.2",
+  "homepage": "https://github.com/schivei/chroma.js-rails",
+  "main": "assets/javascripts/chroma.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/schivei/chroma.js-rails"
+  },
+  "keywords": [
+    "chroma-js",
+    "chroma.js",
+    "chroma",
+    "color",
+    "javascript"
+  ],
+  "contributors": [
+    "Elton Schivei Costa"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/schivei/chroma.js-rails/issues"
+  }
+}
