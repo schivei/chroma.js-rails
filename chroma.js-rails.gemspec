@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'chroma-js/version'
 
 Gem::Specification.new do |s|
-  s.name          = "chroma-js"
+  s.name          = "chroma.js-rails"
   s.version       = Chroma::VERSION
   s.authors       = ["Elton Schivei Costa"]
   s.email         = ["costa@elton.schivei.nom.br"]
@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency 'autoprefixer-rails', '~> 5.0'
   s.add_development_dependency 'actionpack', '~> 4.1'
   s.add_development_dependency 'activesupport', '~> 4.1'
-  s.add_development_dependency 'json', '~> 2.3.0'
+  s.add_development_dependency 'json', '~> 2.3'
   s.add_development_dependency 'sprockets-rails', '~> 2.1'
   s.add_development_dependency 'slim-rails', '~> 0'
   s.add_development_dependency 'uglifier', '~> 0'
