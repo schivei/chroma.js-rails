@@ -25,7 +25,7 @@ jobs:
         chmod 0600 $HOME/.gem/credentials
         printf -- "---\n:github: ${GEM_HOST_API_KEY}\n" > $HOME/.gem/credentials
         gem build chroma.js-rails.gemspec
-        gem push *.gem --KEY github --host https://rubygems.pkg.github.com/${OWNER}
+        gem push chroma.js-rails-*.gem --KEY github --host https://rubygems.pkg.github.com/${OWNER}
       env:
         GEM_HOST_API_KEY: "Bearer ${{secrets.GITHUB_TOKEN}}"
         OWNER: ${{ github.repository_owner }}
@@ -37,6 +37,6 @@ jobs:
         chmod 0600 $HOME/.gem/credentials
         printf -- "---\n:rubygems_api_key: ${GEM_HOST_API_KEY}\n" > $HOME/.gem/credentials
         gem build chroma-js.gemspec
-        gem push *.gem
+        gem push chroma-js-*.gem
       env:
         GEM_HOST_API_KEY: "Bearer ${{secrets.RUBYGEMS_AUTH_TOKEN}}"
